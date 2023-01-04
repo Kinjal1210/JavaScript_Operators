@@ -13,10 +13,10 @@ let dividing = a / b;
 
 console.log(a);
 console.log(b);
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
+console.log(add);
+console.log(minus);
+console.log(multyply);
+console.log(dividing);
 
 // YOUR CODE HERE
 
@@ -47,17 +47,18 @@ console.log(firstName + lastName);
 let val = 5;
 let str3 = "5";
 let str4 = "five";
-let isAwake = false;
+let isPresent2 = false;
 
 console.log(val == str3);
 console.log(val === str3);
-console.log(!isPresent);
+console.log(!isPresent2);
 console.log("eleven" == str4 && val >= str3);
-console.log(!isAwake || isAwake);
+console.log(!isPresent2 || isPresent2 );
 console.log(0 == false);
 console.log(0 === false);
 console.log(0 != false);
 console.log(0 !== false);
+console.log(NaN === false);
 
 // questions & answer
 
